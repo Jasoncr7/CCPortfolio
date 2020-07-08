@@ -10,7 +10,7 @@ header{
     background-color: darkred;
 }
 header h1{
-    color: black;
+    color: white;
 }
 nav a{
     padding: 0px 40px;
@@ -39,7 +39,7 @@ nav{
     font-size: 2.5rem;
 }
 #home h3{
-    color: white;
+    color: black;
     font-size: 1.4rem;
 }
 #about{
@@ -135,7 +135,7 @@ a{
 }
 .button{
     text-decoration: none;
-    padding: 25px;
+    padding: 15px;
     background-color: white;
     border: 2px solid black;
     color: black;
