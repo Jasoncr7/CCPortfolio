@@ -10,7 +10,7 @@ header{
     background-color: darkred;
 }
 header h1{
-    color: cadetblue;
+    color: #FF6347;
 }
 nav a{
     padding: 0px 40px;
@@ -41,7 +41,7 @@ nav{
 #home h3{
     color: white;
     font-size: 1.4rem;
-    background-color: blue;
+    background-color: red;
 }
 #about{
     background-color: white;
@@ -84,7 +84,7 @@ a{
 }
 #skills .colourbarhtml{
     width: 85%;
-    background-color: orange;
+    background-color: #FF6347;
     position: relative;
     border-radius: 30px;
     height: 10px;
@@ -106,7 +106,7 @@ a{
 }
 #skills .colourbarcss{
     width: 69%;
-    background-color: orange;
+    background-color: #FF6347;
     position: relative;
     border-radius: 30px;
     height: 10px;
@@ -119,7 +119,7 @@ a{
 }
 #skills .colourbarjs{
     width: 51%;
-    background-color: orange;
+    background-color: #FF6347;
     position: relative;
     border-radius: 30px;
     height: 10px;
@@ -137,7 +137,7 @@ a{
 .button{
     text-decoration: none;
     padding: 15px;
-    background-color: transparent;
+    background-color: red;
     border: 2px solid black;
     color: black;
     opacity: 0.5;
