@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+    background-color: darkred;
+}
+header h1{
+    color: cadetblue;
+}
+nav a{
+    padding: 0px 40px;
+    font-size: 1.34rem;
+    text-decoration: none;
+    color: lightgrey;
+}
+nav{
+    padding: 0.65%;
+}
+#home{
+    background-image: url(./images.jpg);
+    background-size: contain;
+    height: 45vh;
+    opacity: 0.7;
+}
+#home:hover{
+    opacity: 1;
+}
+.center{
+    text-align: center;
+    color: black;
+}
+#home h1{
+    padding-top: 5.5%;
+    font-size: 2.5rem;
+}
+#home h3{
+    color: white;
+    font-size: 1.4rem;
+    background-color: blue;
+}
+#about{
+    background-color: white;
+    padding-top: 3%;
+    line-height: 1.5;
+}
+#about .full{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#about .full .pics img{
+    width: 20%;
+    margin: auto;
+    display: flex;
+    padding-top: 2%;
+}
+#about .full .text p{
+    text-align: center;
+}
+.btn{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    padding: 1%;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+}
+#skills{
+    padding: 4%;
+}
+#skills .html{
+    width: 100%;
+    border-radius: 30px;
+    height: 10px;
+    background-color: black;
+}
+#skills .colourbarhtml{
+    width: 85%;
+    background-color: orange;
+    position: relative;
+    border-radius: 30px;
+    height: 10px;
+}
+.sh1{
+    padding: 1%;
+}
+#skills .no1{
+    padding-bottom: 3%;
+}
+#skills .no2{
+    padding-bottom: 3%;
+}
+#skills .css{
+    width: 100%;
+    border-radius: 30px;
+    height: 10px;
+    background-color: black;
+}
+#skills .colourbarcss{
+    width: 69%;
+    background-color: orange;
+    position: relative;
+    border-radius: 30px;
+    height: 10px;
+}
+#skills .js{
+    width: 100%;
+    border-radius: 30px;
+    height: 10px;
+    background-color: black;
+}
+#skills .colourbarjs{
+    width: 51%;
+    background-color: orange;
+    position: relative;
+    border-radius: 30px;
+    height: 10px;
+}
+.jobs{
+    padding: 1% 0px;
+}
+.fleximgs{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img{
+    width: 112.5px;
+}
+.button{
+    text-decoration: none;
+    padding: 10px;
+    background-color: blue;
+    border: 2px solid black;
+    color: white;
+    opacity: 0.5;
+    margin-left: 47%;
+}
+#contact{
+    line-height: 2;
+}
+footer{
+    padding: 2%;
+    background-color: darkred;
+    margin-top: 1%;
+    color: lightgrey;
+}
+.fp{
+    color: lightgrey;
+}
+@media (max-width: 700px) {
+    .button{
+        margin-left: 40%;
+    }
+    nav a{
+        padding: 0px 10px;
+    }
+}
