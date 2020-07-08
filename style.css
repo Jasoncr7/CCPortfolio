@@ -24,7 +24,7 @@ nav{
 #home{
     background-image: url(./images.jpg);
     background-size: contain;
-    height: 45vh;
+    height: 65vh;
     opacity: 0.7;
 }
 #home:hover{
@@ -160,6 +160,6 @@ footer{
         margin-left: 40%;
     }
     nav a{
-        padding: 0px 10px;
+        padding: 0px 5px;
     }
 }
