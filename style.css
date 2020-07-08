@@ -141,6 +141,7 @@ a{
     color: black;
     opacity: 0.5;
     margin-left: 47%;
+    margin-bottom: 2%;
 }
 #contact{
     line-height: 2;
@@ -160,5 +161,6 @@ footer{
     }
     nav a{
         padding: 0px 5px;
+        font-size: 0.5rem;
     }
 }
