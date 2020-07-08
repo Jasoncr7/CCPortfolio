@@ -24,7 +24,7 @@ nav{
 #home{
     background-image: url(./images.jpg);
     background-size: contain;
-    height: 65vh;
+    height: 50vh;
     opacity: 0.7;
 }
 #home:hover{
@@ -136,10 +136,10 @@ a{
 }
 .button{
     text-decoration: none;
-    padding: 10px;
-    background-color: blue;
+    padding: 15px;
+    background-color: transparent;
     border: 2px solid black;
-    color: white;
+    color: black;
     opacity: 0.5;
     margin-left: 47%;
 }
@@ -149,7 +149,7 @@ a{
 footer{
     padding: 2%;
     background-color: darkred;
-    margin-top: 1%;
+    margin-top: 2%;
     color: lightgrey;
 }
 .fp{
